@@ -36,13 +36,14 @@ CLEAN clean room → 0
 MOVE → -1
 
 ### Graphical Representation
+
 <img width="1536" height="1024" alt="RL img" src="https://github.com/user-attachments/assets/ab3f75b8-da3e-428f-b464-0cdc874cc37e" />
 
 
 ## PYTHON REPRESENTATION:
 ```
 Name: Sandhiya R
-Reg NO: 212223240146
+Reg No: 212223240146
 # Robot Vacuum Cleaner MDP
 P = {
     (0, 0, 0): {  # Robot in Room 0, both rooms dirty
@@ -85,5 +86,5 @@ print(P)
 ```
 
 ## RESULT:
-
+Thus, the robotic vaccum cleaner problem is successfully represented in MDP form.
 
