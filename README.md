@@ -6,10 +6,8 @@ To model the movement of a robot vacuum cleaner in a 2-room environment using Ma
 
 ## PROBLEM STATEMENT:
 
-A robot vacuum cleaner moves between two rooms (Room 0 and Room 1). It can CLEAN the room or MOVE to the other room. Each action gives a reward: cleaning a dirty room gives +10, moving has a cost of -1, and trying to clean an already clean room gives 0.
-
 ### Problem Description
-Write your answer here
+A robot vacuum cleaner moves between two rooms (Room 0 and Room 1). It can CLEAN the room or MOVE to the other room. Each action gives a reward: cleaning a dirty room gives +10, moving has a cost of -1, and trying to clean an already clean room gives 0.
 
 ### State Space
 
@@ -42,7 +40,9 @@ MOVE → -1
 
 
 ## PYTHON REPRESENTATION:
-
+```
+Name: Sandhiya R
+Reg NO: 212223240146
 # Robot Vacuum Cleaner MDP
 P = {
     (0, 0, 0): {  # Robot in Room 0, both rooms dirty
@@ -72,17 +72,17 @@ P = {
 }
 
 print(P)
-
+```
 
 ## OUTPUT:
-
+```
 {(0, 0, 0): {0: [(1.0, (0, 1, 0), 10, False)], 1: [(1.0, (1, 0, 0), -1, False)]}, 
  (0, 1, 0): {0: [(1.0, (0, 1, 0), 0, False)], 1: [(1.0, (1, 1, 0), -1, False)]},
  (1, 0, 0): {0: [(1.0, (1, 0, 1), 10, False)], 1: [(1.0, (0, 0, 0), -1, False)]},
  (1, 0, 1): {0: [(1.0, (1, 0, 1), 0, False)], 1: [(1.0, (0, 0, 1), -1, False)]},
  (0, 1, 1): {0: [(1.0, (0, 1, 1), 0, True)], 1: [(1.0, (1, 1, 1), -1, True)]},
  (1, 1, 1): {0: [(1.0, (1, 1, 1), 0, True)], 1: [(1.0, (0, 1, 1), -1, True)]}}
-
+```
 
 ## RESULT:
 
