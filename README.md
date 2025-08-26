@@ -17,7 +17,9 @@ room_status = 0 (dirty) or 1 (clean)
 
 ### Sample State
 
-(0, 0, 1) → Robot is in Room 0, Room 0 is dirty, Room 1 is clean.
+(0, 0, 1) → Robot is in Room 0
+Room 0 is dirty
+Room 1 is clean.
 
 ### Action Space
 
