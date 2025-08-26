@@ -18,8 +18,8 @@ room_status = 0 (dirty) or 1 (clean)
 ### Sample State
 
 (0, 0, 1) → Robot is in Room 0
-Room 0 is dirty
-Room 1 is clean.
+1. Room 0 is dirty
+2. Room 1 is clean.
 
 ### Action Space
 
@@ -28,14 +28,14 @@ Room 1 is clean.
 
 ### Sample Action
 
-CLEAN → Cleans the current room
-MOVE → Moves to the other room
+1. CLEAN → Cleans the current room
+1. MOVE → Moves to the other room
 
 ### Reward Function
 
-CLEAN dirty room → +10
-CLEAN clean room → 0
-MOVE → -1
+1. CLEAN dirty room → +10
+2. CLEAN clean room → 0
+3. MOVE → -1
 
 ### Graphical Representation
 
